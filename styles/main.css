@@ -1,0 +1,34 @@
+body, html {
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #game-image {
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    background-color: green;
+  }
+  
+  .red-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .black {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+  }
